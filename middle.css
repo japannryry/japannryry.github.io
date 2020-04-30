@@ -1,0 +1,199 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+header{
+  height: 65px;
+  width:100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  z-index: 10;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.container img{
+  width: 124px;
+  padding: 20px 0;
+}
+
+.container a{
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0 25px;
+  line-height: 65px;
+  transition: all 0.5s;
+}
+
+.container a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top{
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+}
+
+.wrapper{
+  width: 1170px;
+  padding: 180px 0px 100px 0px;
+  margin:0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.top h1{
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing:5px;
+}
+
+.top h1,.top p{
+  opacity: 0.7;
+}
+
+.top a{
+  padding: 8px 24px;
+  display: inline-block;
+  border-radius: 4px;
+  opacity: 0.8;
+  color: white;
+  transition: all 0.5s;
+}
+
+.top a:hover{
+  opacity: 1;
+}
+
+.signup{
+  background-color: #239b76;
+  margin: 30px 0 15px 0;
+}
+
+i{
+  padding-right: 5px;
+}
+
+.facebook{
+  background-color: #3b5998;
+  margin: 15px 10px 0px 0px;
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.lessons{
+  width: 100%;
+  background-color: #f7f7f7;
+  height: 580px;
+
+}
+
+.lesson-wrapper{
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.lessons h1{
+  margin-bottom: 50px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.lesson{
+  width: 25%;
+  float: left;
+}
+
+.icon{
+  text-align: center;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.icon p{
+  color: white;
+  position: absolute;
+  top:40%;
+  width: 100%;
+}
+
+.detail p{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.link-container{
+  width: 1170px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.link-container h1{
+  margin-top: 80px;
+}
+
+.link-container p{
+  margin-bottom: 50px;
+}
+
+.link-container span{
+  display: inline-block;
+  padding: 15px 40px;
+  margin-bottom: 80px;
+  border-radius: 4px;
+  background-color: #5dca88;
+  opacity:0.8;
+  box-shadow: 0 7px #1a7940;
+  cursor: pointer;
+  color: white;
+}
+
+.link-container span:hover{
+    opacity: 1;
+}
+
+.link-container span:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer{
+  border-top: solid 1px #eee;
+}
+
+.footer-container{
+  width: 1170px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.footer-container img{
+    width: 124px;
+}
+
+.footer-container p{
+  font-size: 12px;
+  color: #b3aeb5;
+}

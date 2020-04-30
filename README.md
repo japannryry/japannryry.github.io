@@ -1,0 +1,2 @@
+# japannryry.github.io
+#aiueo
